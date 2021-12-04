@@ -23,7 +23,7 @@ const listStyles = {
     "& div": {
       display: "inline-block",
       verticalAlign: "top",
-    }
+    },
   },
 };
 

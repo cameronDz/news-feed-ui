@@ -16,9 +16,10 @@ const SimpleList = ({ list, name }) => {
       <div className={classNames(classes?.listWrapper)}>
         {!!name && <h3>{name}</h3>}
         <ul>
-          {Array.isArray(list) && list.map((item, idx) =>{
-            return !!item?.name && <li key={item?.id || idx}>{item.name}</li>
-          })}
+          {Array.isArray(list) &&
+            list.map((item, idx) => {
+              return !!item?.name && <li key={item?.id || idx}>{item.name}</li>;
+            })}
         </ul>
       </div>
     </Fragment>
