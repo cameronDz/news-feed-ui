@@ -37,7 +37,12 @@
     {
       "name": "Salt Factory",
       "webpage": "",
-      "listenList": []
+      "listenList": [
+        {
+          "title": "Was The Witcher as good as I remember?",
+          "url": "https://www.youtube.com/watch?v=w_jiy3-lDS4"
+        }
+      ]
     },
     {
       "name": "King K",
