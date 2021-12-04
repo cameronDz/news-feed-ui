@@ -1,0 +1,68 @@
+{
+  "list": [
+    {
+      "name": "Lex",
+      "webpage": "",
+      "listenList": [
+        {
+          "title": "#21 Chris Lattner: Compilers, LLVM, Swift, TPU, and ML Accelerators",
+          "url": "https://www.youtube.com/watch?v=yCd3CzGSte8"
+        },
+        {
+          "title": "#52 Gilbert Strang: Linear Algebra, Teaching, and MIT OpenCourseWare",
+          "url": "https://www.youtube.com/watch?v=lEZPfmGCEk0"
+        },
+        {
+          "title": "#70 Jim Keller: Moore's Law, Microprocessors, and First Principles",
+          "url": "https://www.youtube.com/watch?v=Nb2tebYAaOA"
+        },
+        {
+          "title": "#124 Stephen Wolfram: Fundamental Theory of Physics, Life, and the Universe",
+          "url": "https://www.youtube.com/watch?v=-t1_ffaFXao"
+        },
+        {
+          "title": "S#168ilvio Micali: Cryptocurrency, Blockchain, Algorand, Bitcoin & Ethereum",
+          "url": "https://www.youtube.com/watch?v=zNdhgOk4-fE"
+        },
+        {
+          "title": "#173 Nic Carter: Bitcoin Core Values, Layered Scaling, and Blocksize Debates",
+          "url": "https://www.youtube.com/watch?v=mDyBbGCiBUU"
+        },
+        {
+          "title": "#176 Robert Breedlove: Philosophy of Bitcoin from First Principles",
+          "url": "https://www.youtube.com/watch?v=HrehEWYj16s"
+        }
+      ]
+    },
+    {
+      "name": "Salt Factory",
+      "webpage": "",
+      "listenList": []
+    },
+    {
+      "name": "King K",
+      "webpage": "",
+      "listenList": []
+    },
+    {
+      "name": "Joseph Anderson",
+      "webpage": "",
+      "listenList": []
+    },
+    {
+      "name": "Luke Stevens",
+      "webpage": "",
+      "listenList": []
+    },
+    {
+      "name": "Jock Willink",
+      "webpage": "",
+      "listenList": []
+    },
+    {
+      "name": "Snap Judgment",
+      "webpage": "https://podcasts.google.com/feed/aHR0cHM6Ly9zbmFwLmZlZWQuc25hcGp1ZGdtZW50Lm9yZy8?sa=X&ved=0CAMQ4aUDahcKEwiAh6jljMr0AhUAAAAAHQAAAAAQAQ",
+      "listenList": []
+    }
+  ]
+}

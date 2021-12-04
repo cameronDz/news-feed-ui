@@ -1,0 +1,3 @@
+const basicColorPalette = {};
+
+export { basicColorPalette };
