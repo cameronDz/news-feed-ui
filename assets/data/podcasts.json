@@ -21,7 +21,11 @@
           "url": "https://www.youtube.com/watch?v=-t1_ffaFXao"
         },
         {
-          "title": "S#168ilvio Micali: Cryptocurrency, Blockchain, Algorand, Bitcoin & Ethereum",
+          "title": "#162 Jim Keller: The Future of Computing, AI, Life, and Consciousness",
+          "url": "https://www.youtube.com/watch?v=G4hL5Om4IJ4"
+        },
+        {
+          "title": "#168 Silvio Micali: Cryptocurrency, Blockchain, Algorand, Bitcoin & Ethereum",
           "url": "https://www.youtube.com/watch?v=zNdhgOk4-fE"
         },
         {
@@ -31,6 +35,14 @@
         {
           "title": "#176 Robert Breedlove: Philosophy of Bitcoin from First Principles",
           "url": "https://www.youtube.com/watch?v=HrehEWYj16s"
+        },
+        {
+          "title": "#249 Albert Bourla: Pfizer CEO",
+          "url": "https://www.youtube.com/watch?v=Z_LhPMhkEdw"
+        },
+        {
+          "title": "#252 Elon Musk: SpaceX, Mars, Tesla Autopilot, Self-Driving, Robotics, and AI",
+          "url": "https://www.youtube.com/watch?v=DxREm3s1scA"
         }
       ]
     },
@@ -68,6 +80,20 @@
       "name": "Snap Judgment",
       "webpage": "https://podcasts.google.com/feed/aHR0cHM6Ly9zbmFwLmZlZWQuc25hcGp1ZGdtZW50Lm9yZy8?sa=X&ved=0CAMQ4aUDahcKEwiAh6jljMr0AhUAAAAAHQAAAAAQAQ",
       "listenList": []
+    },
+    {
+      "name": "JRE",
+      "webpage": "https://open.spotify.com/genre/jre_podcast-page",
+      "listenList": [
+        {
+          "title": "#1756 John Abramson",
+          "url": "https://open.spotify.com/episode/64ZsPU8e2CHvWQM9lqnLEY"
+        },
+        {
+          "title": "#1757 Dr. Robert Malone, MD",
+          "url": "https://open.spotify.com/episode/3SCsueX2bZdbEzRtKOCEyT"
+        }
+      ]
     }
   ]
 }
