@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { sortKeyStringAlpha } from "../libs/sorts";
 import podcasts from "../../assets/data/podcasts.json";
 
 const arrayLength = (arr) => {
@@ -30,7 +31,8 @@ const PodcastsToWatch = () => {
       <h4>Shows to watch:</h4>
       <ul>
         {Array.isArray(list) &&
-          list.map((item, idx) => {
+          list.sort(sortKeyStringAlpha("title")).map((item, idx) => {
+            console.info("item", item);
             return (
               item?.title && (
                 <li key={item.id || idx}>
