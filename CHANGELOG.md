@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.0] 2022-02-20
+
+### Added
+
+- add YouTube channel lists
+
+### Changed
+
+- build artifacts put into version based directory
+
+### Security
+
+- upgrade vulnerable packages
+
 ## [0.3.0] 2022-01-17
 
 ### Added
