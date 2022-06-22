@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core";
 import CategorySelector from "./categorySelector";
 import RssEntryList from "./rssEntryList";
 import { fetchCategoryFeeds } from "../libs/parser";
-import feeds from "../assets/feeds";
+import feeds from "../../assets/feeds";
 import { rssStyles as styles } from "./styles";
 
 const categoryList = Object.keys(feeds);

@@ -1,5 +1,5 @@
 import { parseString } from "xml2js";
-import feeds from "../assets/feeds";
+import feeds from "../../assets/feeds";
 
 const corsProxy = "https://cors.eu.org/";
 
