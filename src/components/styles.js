@@ -8,4 +8,11 @@ const appFooterStyles = {
   },
 };
 
-export { appFooterStyles };
+const rssStyles = {
+  alignItems: "center",
+  display: "flex",
+  flexDirection: "column",
+  textAlign: "center",
+};
+
+export { appFooterStyles, rssStyles };

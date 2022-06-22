@@ -1,13 +1,17 @@
 import React, { Fragment } from "react";
 import PropTypes from "prop-types";
+import { makeStyles } from "@material-ui/core";
+import { categoryStyles as styles } from "./styles";
 
 const propTypes = {
   categories: PropTypes.arrayOf(PropTypes.string),
   onSelect: PropTypes.func,
 };
+const useStyles = makeStyles(() => styles);
 const CategorySelector = ({ categories = [], onSelect = null }) => {
+  const classes = useStyles();
   return (
-    <div className="CategorySelector-root">
+    <div className={classes.root}>
       {categories.map((category) => {
         return (
           <Fragment key={category}>

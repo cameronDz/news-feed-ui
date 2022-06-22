@@ -1,33 +1,34 @@
-// .Entry-root {
-//   border: 1px white solid;
-//   border-radius: 6px;
-//   display: flex;
-//   flex-direction: row;
-//   margin: 12px auto;
-//   padding: 6px;
-//   width: 500px;
-// }
+const entryStyles = {
+  root: {
+    border: "1px black solid",
+    borderRadius: "6px",
+    display: "flex",
+    flexDirection: "row",
+    margin: "12px auto",
+    padding: "6px",
+    width: "500px",
+  },
+  boxRight: {
+    alignItems: "center",
+    display: "flex",
+    flexDirection: "column",
+    height: "150px",
+    paddingLeft: "12px",
+    width: "100%",
+    "& p": {
+      marginBlockStart: 0,
+    },
+  },
+  author: {
+    fontSize: "18px",
+    fontWeight: "600",
+  },
+  name: {
+    fontSize: "12px",
+  },
+  date: {
+    fontSize: "10px",
+  },
+};
 
-// .Entry-box-right {
-//   align-items: center;
-//   flex-direction: column;
-//   display: flex;
-//   height: 150px;
-//   padding-left: 12px;
-//   width: 100%;
-// }
-
-// .Entry-box-right p {
-//   margin-block-start: 0;
-// }
-
-// .Entry-box-right .Entry-author {
-//   font-size: 18px;
-//   font-weight: 600;
-// }
-// .Entry-box-right .Entry-name {
-//   font-size: 12px;
-// }
-// .Entry-box-right .Entry-date {
-//   font-size: 10px;
-// }
+export { entryStyles };

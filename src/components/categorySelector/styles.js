@@ -1,4 +1,8 @@
-// .CategorySelector-root input {
-//   margin-bottom: 12px;
-//   margin-right: 12px;
-// }
+const categoryStyles = {
+  root: {
+    marginBottom: "12px",
+    marginRight: "12px",
+  },
+};
+
+export { categoryStyles };
