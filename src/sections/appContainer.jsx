@@ -4,6 +4,7 @@ import { makeStyles } from "@material-ui/core";
 import AppFooter from "../components/appFooter";
 import Lists from "./lists";
 import PodcastsToWatch from "../components/podcastsToWatch";
+import RssFeed from "../components/rssFeed";
 import { appContainerStyles as styles } from "./styles";
 
 const propTypes = {};
@@ -21,6 +22,9 @@ const AppContainer = () => {
             <Lists />
             <div>
               <PodcastsToWatch />
+            </div>
+            <div>
+              <RssFeed />
             </div>
           </div>
         </div>

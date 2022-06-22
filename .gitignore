@@ -6,5 +6,8 @@
 .settings/
 dist/
 
+# testing
+coverage
+
 # node ignores
 node_modules/
