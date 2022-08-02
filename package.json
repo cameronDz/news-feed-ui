@@ -88,5 +88,5 @@
     "start": "webpack-dev-server --open --config webpack/dev.babel.js",
     "test": "cross-env BABEL_ENV=test jest"
   },
-  "version": "0.5.0"
+  "version": "0.6.0"
 }
