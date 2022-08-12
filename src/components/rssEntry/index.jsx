@@ -26,7 +26,7 @@ const RssEntry = ({
         <a href={link} rel="noreferrer" target="_blank">
           <img
             alt="entry img"
-            onError={() => console.warn("error occured")}
+            onError={(e) => console.warn("error occured")}
             src={thumbnailUrl}
             width="160px"
           />

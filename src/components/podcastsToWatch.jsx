@@ -32,7 +32,6 @@ const PodcastsToWatch = () => {
       <ul>
         {Array.isArray(list) &&
           list.sort(sortKeyStringAlpha("title")).map((item, idx) => {
-            console.info("item", item);
             return (
               item?.title && (
                 <li key={item.id || idx}>

@@ -7,7 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.5.0] 2022-08-01
+## [0.7.0] 2022-08-12
+
+### Added
+
+- additional comedy feed
+
+### Changed
+
+- structure for feeds being stored
+
+### Removed
+
+- EU cors proxy because its reached cap
+
+## [0.6.0] 2022-08-01
 
 ### Added
 
