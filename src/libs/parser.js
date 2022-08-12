@@ -1,6 +1,7 @@
 import { parseString } from "xml2js";
 import { feedCollections } from "../../assets/feeds";
 
+const urlCorsProxy = "https://cors.eu.org/";
 const urlRssYouTube = "https://www.youtube.com/feeds/videos.xml?channel_id=";
 const fetchCategoryFeeds = (category, callback) => {
   const index = feedCollections.findIndex((item) => item.name === category);
@@ -14,7 +15,7 @@ const fetchCategoryFeeds = (category, callback) => {
 };
 
 const fetchFeed = (item, callback) => {
-  fetch(urlRssYouTube + item.channelId)
+  fetch(urlCorsProxy + urlRssYouTube + item.channelId)
     .then((res) =>
       res
         .text()
