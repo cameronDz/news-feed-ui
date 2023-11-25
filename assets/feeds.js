@@ -3,11 +3,6 @@ const feedCollections = [
     name: "Comedy",
     feeds: [
       {
-        name: "Tim Dillon Show",
-        distributor: "YOUTUBE",
-        channelId: "UC4woSp8ITBoYDmjkukhEhxg",
-      },
-      {
         name: "Tuesdays with Stories",
         distributor: "YOUTUBE",
         channelId: "UCsE74YJvPJpaquzTPMO8hAA",
